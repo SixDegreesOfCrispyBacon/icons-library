@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1024px" height="1024px" style="filter: url('#inner-shadow-filter-1');" viewBox="-512 -512 1024 1024" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:grid x="0" y="0" width="64" height="64"/>
+    <filter id="inner-shadow-filter-1" color-interpolation-filters="sRGB" x="-50%" y="-50%" width="200%" height="200%" bx:preset="inner-shadow 1 0 0 0 0.27 rgba(0,0,0,0.7)">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur stdDeviation="0"/>
+      <feComposite operator="out" in="SourceGraphic"/>
+      <feComponentTransfer result="choke">
+        <feFuncA type="linear" slope="0.54"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.7)" result="color"/>
+      <feComposite operator="in" in="color" in2="choke" result="shadow"/>
+      <feComposite operator="over" in="shadow" in2="SourceGraphic"/>
+    </filter>
+    <linearGradient id="gradient-1" bx:pinned="true">
+      <title>ScreenGrad</title>
+      <stop style="stop-color: rgba(52, 255, 0, 0.808);" offset="0"/>
+      <stop style="stop-color: rgba(0, 95, 0, 0.714);" offset="1"/>
+    </linearGradient>
+    <linearGradient id="color-0" gradientUnits="userSpaceOnUse" bx:pinned="true">
+      <title>GreenSelected</title>
+      <stop style="stop-color: rgb(194, 255, 0)"/>
+    </linearGradient>
+    <linearGradient id="color-1" gradientUnits="userSpaceOnUse" bx:pinned="true">
+      <title>WhiteOutline</title>
+      <stop style="stop-color: rgb(255, 255, 255)"/>
+    </linearGradient>
+    <bx:export>
+      <bx:file format="png" path="armchair_sitting.png">
+        <bx:variant scale="0.5" suffix="@512px"/>
+        <bx:variant scale="0.25" suffix="@256px"/>
+        <bx:variant scale="0.125" suffix="@128px"/>
+      </bx:file>
+    </bx:export>
+  </defs>
+  <rect x="-512" y="-512" width="1024" height="1024" style="visibility: hidden;">
+    <title>Background</title>
+  </rect>
+  <path style="stroke-width: 8px; paint-order: fill; fill-opacity: 0.7; fill: url(&quot;#color-0&quot;);" d="M 489.82 -23.862 C 494.133 20.883 418.94 44.415 382.551 77.931 L 381.602 299.254 C 381.602 311.847 371.403 322.054 358.821 324.996 L -358.83 324.996 C -371.4 322.054 -381.61 311.847 -381.61 299.254 L -382.56 77.931 C -418.94 44.415 -494.14 20.883 -489.82 -23.862 C -475.59 -171.51 -388.76 -150.18 -320.45 -103.57 L -320.82 -124.08 L -321.71 -219.73 C -321.71 -282.69 -270.7 -327.97 -207.78 -324.85 L 207.773 -324.85 C 270.708 -327.97 321.708 -282.69 321.708 -219.73 L 320.815 -124.08 L 320.45 -103.57 C 388.762 -150.18 475.585 -171.51 489.82 -23.862 Z" id="object-0">
+    <title>SofaColour</title>
+  </path>
+  <path style="fill: none; paint-order: stroke; stroke-width: 22px; stroke: url(&quot;#color-1&quot;);" d="M 0.001 -324.85 L 207.777 -324.85 C 270.71 -327.99 321.712 -282.68 321.712 -219.75 L 320.818 -124.09 L 320.453 -103.6 C 279.904 -75.856 245.872 -39.3 237.423 -23.861 C 221.903 4.501 227.411 36.73 231.638 68.724 L 0.001 68.724 L -231.61 68.724 C -227.42 36.73 -221.88 4.501 -237.44 -23.861 C -245.88 -39.3 -279.88 -75.856 -320.44 -103.6 L -320.81 -124.09 L -321.7 -219.75 C -321.7 -282.68 -270.68 -327.99 -207.79 -324.85 L 0.001 -324.85 Z M 234.648 108.029 C 235.574 64.066 215.477 16.235 237.423 -23.861 C 260.108 -65.327 467.138 -259.17 489.822 -23.861 C 494.136 20.881 418.945 44.415 382.555 77.931 L 381.606 299.252 C 381.606 311.844 371.406 322.055 358.824 324.996 L 0.029 324.996 L -358.8 324.996 C -371.4 322.055 -381.6 311.844 -381.6 299.252 L -382.56 77.931 C -418.92 44.415 -494.17 20.881 -489.82 -23.861 C -467.12 -259.17 -260.11 -65.327 -237.44 -23.861 C -215.48 16.235 -235.57 64.066 -234.64 108.029">
+    <title>SofaOutline</title>
+  </path>
+</svg>
