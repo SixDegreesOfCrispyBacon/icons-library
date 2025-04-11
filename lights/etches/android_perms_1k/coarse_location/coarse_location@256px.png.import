@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://crl0wvox0p75e"
-path="res://.godot/imported/use_scene@512px.png-7656576aff350cf6beafb00d9ca03f17.ctex"
+uid="uid://ca3n8wwg50dfb"
+path="res://.godot/imported/coarse_location@256px.png-083c7ae9a7811e1bc2f400ab408d5e75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://icons_library/lights/etches/meta_perms_1k/use_scene@512px.png"
-dest_files=["res://.godot/imported/use_scene@512px.png-7656576aff350cf6beafb00d9ca03f17.ctex"]
+source_file="res://icons_library/lights/etches/android_perms_1k/coarse_location/coarse_location@256px.png"
+dest_files=["res://.godot/imported/coarse_location@256px.png-083c7ae9a7811e1bc2f400ab408d5e75.ctex"]
 
 [params]
 
